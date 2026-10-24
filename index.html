@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="search">
+        <input type="text" name="area" id="area" placeholder="Search.." />
+        <svg
+          onclick="getWeather()"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          fill="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <!--Boxicons v3.0.8 https://boxicons.com | License  https://docs.boxicons.com/free-->
+          <path
+            d="M10.5 19c1.98 0 3.81-.69 5.25-1.83L20 21.42l1.41-1.41-4.25-4.25a8.47 8.47 0 0 0 1.83-5.25c0-4.69-3.81-8.5-8.5-8.5S2 5.81 2 10.5 5.81 19 10.5 19m0-15c3.58 0 6.5 2.92 6.5 6.5S14.08 17 10.5 17 4 14.08 4 10.5 6.92 4 10.5 4"
+          ></path>
+        </svg>
+      </div>
+      <div class="topic">
+        <h4 id="date">May 29,2024</h4>
+        <h1 id="place">London</h1>
+      </div>
+
+      <img src="git.svg" alt="icon" />
+      <h2 id="temp">13C</h2>
+
+      <div class="stats">
+        <div class="div">
+          <h5>highs</h5>
+          <p id="maxTemp">14.44C</p>
+        </div>
+        <div class="div">
+          <h5>lows</h5>
+          <p id="minTemp">11.49C</p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
